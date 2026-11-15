@@ -15,7 +15,7 @@ El servidor queda en http://localhost:3000
 
 
 ## Rutas
-#GET:
+##GET:
 
 / | Mensaje de bienvenida
 /api/productos | la lista de todo
@@ -24,10 +24,12 @@ El servidor queda en http://localhost:3000
 #POST:
 
 /api/productos | Crea un producto
-#PUT:
+
+##PUT:
 
 /api/productos/:id | Modifica un producto
-#DELETE:
+
+##DELETE:
 
 /api/productos/:id | Elimina un producto
 
