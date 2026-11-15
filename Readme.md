@@ -15,19 +15,20 @@ El servidor queda en http://localhost:3000
 
 
 ## Rutas
-##GET:
-
+GET:
 / | Mensaje de bienvenida
 /api/productos | la lista de todo
 /api/productos/:"id" | te lista un producto por id
 /api/resumen | Cantidad y precio promedio
-#POST:
 
+
+POST:
 /api/productos | Crea un producto
 
-##PUT:
 
+PUT:
 /api/productos/:id | Modifica un producto
+
 
 ##DELETE:
 
